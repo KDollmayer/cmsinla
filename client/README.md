@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# CMS examination
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is built in React.js using wordpress.com as cms.
 
-## Available Scripts
+## Getting started
 
-In the project directory, you can run:
+### Installation
 
-### `npm start`
+Depending on
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone the repo (or fork if you want to deploy on your own)
+   ```sh
+   git clone https://github.com/KDollmayer/cmsinla
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Add an .env file at the root of your repository and add your API_URL
+   ```js
+   REACT_APP_API_URL = "ENTER YOUR URL";
+   ```
+4. You need a wordpress account for posting new blog posts. Contact admin to get access.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Run the project locally
 
-### `npm test`
+To run the project:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```js
+npm start
+```
 
-### `npm run build`
+You should now be able to see your WordPress.com content displayed on localhost.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+BILD
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Deploy
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project is deployed with Vercel.
 
-### `npm run eject`
+## Deploy on your own
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Go to [vercel](vercel.com) and create an account / log in.
+2. Click the Add New button and choose Project.
+3. Connect your Github to Vercel
+4. Import your repository
+5. Select the Client-folder as Root Directory
+6. Add environment variables (same as in your .env file)
+7. Deploy project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contact
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Admin Karl Dollmayer - karldollmayer@gmail.com
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link: [https://github.com/annarylander/cms-examination](https://github.com/KDollmayer/cmsinla)]
