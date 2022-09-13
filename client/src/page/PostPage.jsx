@@ -27,7 +27,7 @@ export default function PostPage() {
     {
         list && list.map((item) => {
             return ( <div>
-             <h3 dangerouslySetInnerHTML={{ __html: item.title }}></h3>
+             <h2 dangerouslySetInnerHTML={{ __html: item.title }}></h2>
              <p dangerouslySetInnerHTML={{ __html: item.content }}></p>
            
             </div>
