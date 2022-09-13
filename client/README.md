@@ -6,7 +6,6 @@ This project is built in React.js using wordpress.com as cms.
 
 ### Installation
 
-Depending on
 
 1. Clone the repo (or fork if you want to deploy on your own)
    ```sh
