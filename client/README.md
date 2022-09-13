@@ -29,10 +29,10 @@ To run the project:
 ```js
 npm start
 ```
-
+![localhost](localhost.png)
 You should now be able to see your WordPress.com content displayed on localhost.
 
-BILD
+
 
 ## Deploy
 
