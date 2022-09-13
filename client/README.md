@@ -52,4 +52,4 @@ This project is deployed with Vercel.
 
 Admin Karl Dollmayer - karldollmayer@gmail.com
 
-Project Link: [https://github.com/annarylander/cms-examination](https://github.com/KDollmayer/cmsinla)]
+Project Link: [https://github.com/KDollmayer/cmsinla](https://github.com/KDollmayer/cmsinla)]
