@@ -18,7 +18,7 @@ Depending on
    ```
 3. Add an .env file at the Client directory and add your API_URL
    ```js
-   REACT_APP_API_URL = "ENTER YOUR URL";
+   REACT_APP_API_URL = "ENTER YOUR URL"
    ```
 4. You need a wordpress account for posting new blog posts. Contact admin to get access.
 
