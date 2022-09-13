@@ -16,7 +16,7 @@ Depending on
    ```sh
    npm install
    ```
-3. Add an .env file at the root of your repository and add your API_URL
+3. Add an .env file at the Client directory and add your API_URL
    ```js
    REACT_APP_API_URL = "ENTER YOUR URL";
    ```
