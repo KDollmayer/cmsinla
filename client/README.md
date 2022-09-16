@@ -23,7 +23,7 @@ This project is built in React.js using wordpress.com as cms.
    
 4. You need a wordpress account for posting new blog posts. https://wordpress.com/learn/get-started/
 
-6. Send your wordpress-Email or -Username to admin:  karldollmayer@gmail.com
+6. Send your wordpress-Email or -Username to admin to get access to this CMS:  karldollmayer@gmail.com
 
 ## Run the project locally
 
