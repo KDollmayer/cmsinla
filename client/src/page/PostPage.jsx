@@ -10,7 +10,7 @@ export default function PostPage() {
     useEffect(() => {
         
         let url = process.env.REACT_APP_API_KEY
-        console.log(url)
+        console.log(`${url}/posts`)
         fetch(url)
           .then((res) => res.json())
           .then((data) => setList(data.posts))
