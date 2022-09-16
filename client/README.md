@@ -15,11 +15,11 @@ This project is built in React.js using wordpress.com as cms.
    ```sh
    npm install
    ```
-3. Add an .env file at the Client directory and add your API_URL
+3. Add an .env file at the Client directory and add your REACT_APP_API_URL
    ```js
    REACT_APP_API_URL = "ENTER YOUR URL"
    ```
-4. You need a wordpress account for posting new blog posts. Contact admin to get access.
+4. You need a wordpress account for posting new blog posts. Contact admin to get access. karldollmayer@gmail.com
 
 ## Run the project locally
 
@@ -51,4 +51,4 @@ This project is deployed with Vercel.
 
 Admin Karl Dollmayer - karldollmayer@gmail.com
 
-Project Link: [https://github.com/KDollmayer/cmsinla (https://github.com/KDollmayer/cmsinla)]
+Project Link: https://github.com/KDollmayer/cmsinla 
